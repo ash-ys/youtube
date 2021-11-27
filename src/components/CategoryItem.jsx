@@ -1,4 +1,4 @@
-import { styled } from "@material-ui/styles";
+import { styled } from "styled-components";
 
 const Container = styled.div``;
 

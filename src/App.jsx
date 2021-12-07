@@ -7,8 +7,10 @@ import Cart from "./pages/Cart";
 import React from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Products from "./components/Products";
+import { useSelector } from "react-redux";
 
 const App = () => {
+  const user = useSelector((state)=> state.user.currentUser);
   return (
     <Router>
         <Routes>
